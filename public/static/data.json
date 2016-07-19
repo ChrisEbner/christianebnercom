@@ -1,0 +1,21 @@
+{
+  "Blog": {
+    "Author": "Christian Ebner",
+    "Posts": [
+      {
+        "id": 1,
+        "Date": "July 12, 2016",
+        "Title": "Rethinking Carreers",
+        "Subtitle": "Switching from IT Ops to Development",
+        "HeaderImage": "./static/img/career.jpg"
+      },
+      {
+        "id": 2,
+        "Date": "July 18, 2016",
+        "Title": "Starting is hard",
+        "Subtitle": "A story about starting a javascript project in 2016",
+        "HeaderImage": "https://www.aerzteblatt.de/bilder/cache/00/00/05/84/img-58496-560-0.JPG"
+      }
+    ]
+  }
+}

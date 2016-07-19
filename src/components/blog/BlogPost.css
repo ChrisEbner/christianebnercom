@@ -1,0 +1,26 @@
+article {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.15);
+    display: inline-block;
+    margin: 20px 0 10px;
+    -webkit-transition: all 150ms;
+    transition: all 150ms;
+    width: 100%;
+}
+
+.article-content {
+    padding: 30px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .article-image {
+        height: 200px;
+    }
+
+}
+
+.BlogPost__Title {
+    margin: 1em 0.5em;
+}

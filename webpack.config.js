@@ -19,7 +19,7 @@ module.exports = getConfig({
   // get a fresh folder. Usually you want this
   // but since it's destructive we make it
   // false by default
-  clearBeforeBuild: '!(images|static|manifest.json)',
+  clearBeforeBuild: '!(img|static|manifest.json)',
   html: function(context) {
       return {
           'index.html': context.defaultTemplate({head: '<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">'})
